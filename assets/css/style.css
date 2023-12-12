@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -8,11 +8,11 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-:root{
+:root {
     --container-width-lg: 80%;
     --container-width-sm: 94%;
     --radius-1: 2rem;
@@ -35,7 +35,7 @@ html{
     --color-gray-900: hsl(var(--primary-hue), 0%, 5%);
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-gray-100);
     color: var(--color-gray-800);
@@ -43,36 +43,43 @@ body{
     font-weight: 300;
 }
 
-p, a, figcaption{
+p,
+a,
+figcaption {
     font-size: 0.85rem;
 }
 
-.container{
+.container {
     width: var(--container-width-lg);
     margin-inline: auto;
 }
 
-img{
+img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Outfit', sans-serif;
     line-height: 1;
 }
 
-h1{
+h1 {
     font-size: 3rem;
     font-weight: 800;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-.btn{
+.btn {
     background: var(--color-gray-200);
     color: var(--color-gray-900);
     font-weight: 500;
@@ -84,37 +91,38 @@ h2{
     transition: var(--transition);
 }
 
-.btn.sm{
+.btn.sm {
     padding: 0.4rem 1rem;
     font-weight: 400;
     border-radius: var(--radius-4);
 }
 
-.btn.primary{
+.btn.primary {
     background: var(--color-primary);
     color: #ffffff;
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--color-gray-900);
     color: var(--color-gray-100);
 }
 
-section{
+section {
     padding: 9rem 0;
 }
 
-section > h1, section > p{
+section>h1,
+section>p {
     width: 50%;
     text-align: center;
     margin-inline: auto;
 }
 
-section > h1{
+section>h1 {
     margin-bottom: 0.5rem;
 }
 
-section:nth-child(odd){
+section:nth-child(odd) {
     background: var(--color-gray-200);
 }
 
@@ -143,28 +151,29 @@ nav {
     justify-content: space-between;
 }
 
-.nav--logo{
+.nav--logo {
     width: 2.4rem;
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.nav--menu{
+.nav--menu {
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-.nav--menu a{
+.nav--menu a {
     color: var(--color-gray-900);
 }
 
-.nav-toggle-open , .nav-toggle-close{
+.nav-toggle-open,
+.nav-toggle-close {
     display: none;
 }
 
-.nav-theme-btn{
+.nav-theme-btn {
     color: var(--color-gray-900);
     background: transparent;
     font-size: 1.4rem;
@@ -184,23 +193,23 @@ nav {
 /* =====================Header======================== */
 
 
-header{
+header {
     display: grid;
     place-items: center;
     min-height: 100vh;
 }
 
 
-.header--container{
+.header--container {
     margin-top: 3rem;
     position: relative;
 }
 
-.header--image img{
+.header--image img {
     height: 100%;
 }
 
-.header--image{
+.header--image {
     width: 14rem;
     aspect-ratio: 3/4;
     overflow: hidden;
@@ -209,33 +218,33 @@ header{
     border-radius: 7rem 7rem var(--radius-2) var(--radius-2);
 }
 
-.header--content{
+.header--content {
     text-align: center;
     margin-top: 2rem;
     width: 40rem;
     margin-inline: auto;
 }
 
-.header--content h4{
+.header--content h4 {
     margin-bottom: 0.7rem;
 }
 
-.header--content h4 span{
+.header--content h4 span {
     color: var(--color-primary);
 }
 
-.header--content p{
+.header--content p {
     margin: 0.8rem 0 2rem;
 }
 
-.header--cta{
+.header--cta {
     display: flex;
     gap: 1.5rem;
     align-items: center;
     justify-content: center;
 }
 
-.header--socials{
+.header--socials {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -244,7 +253,7 @@ header{
     gap: 1.1rem;
 }
 
-.header--socials a{
+.header--socials a {
     background: var(--color-gray-200);
     color: var(--color-gray-900);
     padding: 0.5rem 0.7rem;
@@ -253,7 +262,7 @@ header{
     transition: var(--transition);
 }
 
-.header--socials a:hover{
+.header--socials a:hover {
     background: var(--color-primary);
     color: var(--color-gray-100);
     transform: translate(-0.5rem);
@@ -276,27 +285,27 @@ header{
 
 /* =====================About======================== */
 
-.about--container{
+.about--container {
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 7rem;
 }
 
-.about--image{
+.about--image {
     border: 1rem solid var(--color-gray-100);
     height: fit-content;
     max-height: 35rem;
     overflow: hidden;
 }
 
-.about--cards{
+.about--cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 3rem 0 1.5rem;
 }
 
-.about--card{
+.about--card {
     background: var(--color-gray-100);
     padding: 0.8rem;
     border-radius: var(--radius-2);
@@ -306,13 +315,13 @@ header{
 }
 
 
-.about--card:hover{
+.about--card:hover {
     background: var(--color-primary);
     color: var(--color-gray-100);
     transform: translateY(-0.5rem);
 }
 
-.about--card i{
+.about--card i {
     color: var(--color-primary);
     font-size: 1.4rem;
     display: inline-block;
@@ -320,33 +329,30 @@ header{
     border-radius: var(--radius-4);
 }
 
-.about--card h4{
+.about--card h4 {
     margin: 1rem 0 0.8rem;
 }
 
-.about--card:hover i{
+.about--card:hover i {
     background: var(--color-gray-100);
     color: var(--color-primary);
 }
 
-.about--card small{
+.about--card small {
     font-size: 0.7rem;
 }
 
-.about--details p{
+.about--details p {
     margin-bottom: 0.8rem;
 }
 
-.about--details .btn{
+.about--details .btn {
     margin-top: 2rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;
 }
 
-.about--details .btn i{
+.about--details .btn i {
     font-size: 1.2rem;
 }
-
-
-
