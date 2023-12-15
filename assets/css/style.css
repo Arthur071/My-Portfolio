@@ -426,3 +426,74 @@ header {
 
 
 
+
+
+
+
+
+
+
+/* =====================Projects======================== */
+
+
+
+.projects--categories{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0 2.5rem;
+    flex-wrap: wrap;
+}
+
+
+.projects--categories li{
+    background: var(--color-gray-100);
+    padding: 0.6rem 1.5rem;
+    border-radius: var(--radius-4);
+    font-weight: 500;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: var(--transition);
+
+}
+
+.projects--categories li:hover,.projects--categories li.active{
+    background: var(--color-primary);
+    color: var(--color-gray-100);
+}
+
+.projects--container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem,1fr));
+    gap: 3.5rem;
+}
+
+.project{
+    background: var(--color-gray-100);
+    padding: 1.4rem;
+    border-radius: var(--radius-2);
+    transition: var(--transition);
+}
+
+.project:hover{
+    box-shadow: 0 3rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.project--image{
+    height: auto;
+    max-height: 12rem;
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-4);
+    overflow: hidden;
+}
+
+.project p{
+    margin: 0.5rem 0 1.5rem;
+}
+
+.project--cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
