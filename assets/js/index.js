@@ -80,7 +80,7 @@ navCloseBtn.addEventListener('click', closeNavHandler)
 
 const navItems = navMenu.querySelectorAll('a');
 if (window.innerWidth < 768) {
-    navItems.forEach (item => {
+    navItems.forEach(item => {
         item.addEventListener('click', closeNavHandler)
     })
 }
