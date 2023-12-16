@@ -6,6 +6,17 @@
     border: 0;
     outline: 0;
     box-sizing: border-box;
+    
+}
+ ::-webkit-scrollbar{
+    width: 8px;
+    
+ }
+
+ ::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);
+    border: 2px solid transparent;
+    border-radius: 6px;
 }
 
 html {
@@ -109,6 +120,7 @@ h2 {
 
 section {
     padding: 9rem 0;
+    overflow: hidden;
 }
 
 section>h1,
@@ -376,6 +388,7 @@ header {
     grid-template-columns: 1fr 2fr;
     gap: 6rem;
     margin-top: 4rem;
+    
 }
 
 .services--left{
