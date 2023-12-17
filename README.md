@@ -13,7 +13,8 @@ PixelShadan - a name that evokes both the creative world of pixels and the techn
 
 ## Screenshots
 
-![Alt text](<Screenshot 2023-12-16 211021.png>)
+![Screenshot 2023-12-16 211021](https://github.com/Arthur071/My-Portfolio/assets/117112407/89b84e8c-f619-4ede-8c43-9d487f406391)
+
 
 
 ## Deployment
