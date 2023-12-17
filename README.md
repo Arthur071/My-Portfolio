@@ -11,12 +11,6 @@ PixelShadan - a name that evokes both the creative world of pixels and the techn
 
 
 
-
-
-
-
-
-
 ## Screenshots
 
 ![Alt text](<Screenshot 2023-12-16 211021.png>)
